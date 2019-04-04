@@ -65,18 +65,23 @@ tar xzf wiki-js.tar.gz -C ./wiki
 cd ./wiki
 ```
 
-8. Rename the sample config file to `config.yml`:
+8. Install dependencies:
+```bash
+npm install
+```
+
+9. Rename the sample config file to `config.yml`:
 ```bash
 mv config.sample.yml config.yml
 ```
 
-8. Configure database connection:
+10. Configure database connection:
 ```bash
 nano config.yml
 ```
 Make sure to specify to use `sqlite` instead of `postgresql`. Save and close by hitting `CTRL+X` and `Y`.
 
-9. Run server:
+11. Run server:
 ```bash
 node server
 ```
