@@ -76,6 +76,11 @@ nano config.yml
 ```
 Make sure to specify to use `sqlite` instead of `postgresql`. Save and close by hitting `CTRL+X` and `Y`.
 
+9. Run server:
+```bash
+node server
+```
+
 ## Running wiki.js via Docker-Compose file
 
 Currently, we have these command available to work using local docker compose.

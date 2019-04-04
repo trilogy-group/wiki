@@ -6,4 +6,6 @@ RUN apt-get update && \
     apt-get install -y wget nano && \
     apt-get clean
 
+WORKDIR /data
+
 CMD tail -f /dev/null
