@@ -79,7 +79,7 @@ mv config.sample.yml config.yml
 ```bash
 nano config.yml
 ```
-Make sure to specify to use `sqlite` instead of `postgresql`. Save and close by hitting `CTRL+X` and `Y`.
+Make sure to specify to use `sqlite` instead of `postgresql`. Update database file path as well to `storage: /data/database.db`. Save and close by hitting `CTRL+X` and `Y`.
 
 11. Run server:
 ```bash
