@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  builder:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: wiki
+    ports:
+          - "3000:3000"
+    volumes:
+      - .:/app:Z
+    command: bash
+    tty: true
